@@ -1,0 +1,48 @@
+.navbar {
+  width: 90px !important;
+  height: 100vh;
+  /* box-shadow: 2px 2px 2px 1px whitesmoke; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  position: fixed;
+  border-right: 1px solid #dcdcdc;
+  box-sizing: border-box;
+}
+.list-icons {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+.icons {
+  width: 150px;
+  /* height: 25px; */
+  margin-top: 22%;
+  cursor: pointer;
+  color: #231f20;
+}
+.first-box {
+  margin-top: 0px;
+  margin-bottom: 40px;
+}
+.last-box {
+  position: relative;
+}
+.drop-list {
+  list-style: none;
+}
+.drop-list > li {
+  padding-top: 3%;
+  padding-bottom: 5%;
+  padding-left: 5%;
+  font-size: 14px;
+  cursor: pointer;
+}
+.drop-list > li:hover {
+  color: rgba(26, 137, 23, 1);
+}
+.hrline {
+  margin: 15px 0px;
+}
